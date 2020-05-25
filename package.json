@@ -1,0 +1,26 @@
+{
+    "name": "learning-sass",
+    "version": "1.0.0",
+    "description": "Première utilisation de SASS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "scss": "node-sass --watch assets/scss/style.scss -o assets/css"
+    },
+    
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Arnaud-De-Baerdemaeker/Learning-SASS.git"
+    },
+    
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Arnaud-De-Baerdemaeker/Learning-SASS/issues"
+    },
+    
+    "homepage": "https://github.com/Arnaud-De-Baerdemaeker/Learning-SASS#readme",
+    "dependencies": {
+        "node-sass": "^4.14.1"
+    }
+}
